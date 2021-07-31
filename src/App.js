@@ -4,6 +4,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
+
     <div className="App">
       {/* <Navbar />
       <About />
@@ -11,6 +12,9 @@ function App() {
       <Contact /> */}
       <Footer />
     </div>
+
+
+
   );
 }
 
