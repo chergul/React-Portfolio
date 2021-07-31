@@ -1,13 +1,14 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import Footer from "./components/Footer";
+import MyNavbar from './components/MyNavbar';
 
 function App() {
   return (
 
     <div className="App">
-      {/* <Navbar />
-      <About />
+      <MyNavbar />
+      {/* <About />
       <Portfolio />
       <Contact /> */}
       <Footer />
