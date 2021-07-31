@@ -1,4 +1,13 @@
+:root {
+    --pane-padding: 5px 42px;
+    --font-family: serif;
+    --line-height: 1.5;
+  }
 /* Navbar */
+.myNav {
+    padding: 20px;
+    font-family: var(--font-family)
+}
 /* Home */
 /* About */
 /* Portfolio */
@@ -6,7 +15,8 @@
 /* Footer */
 .footer {
     bottom: 0 !important;
-    background-color : rgb(207, 188, 152)
+    background-color : rgb(207, 188, 152);
+    font-family: var(--font-family);
 }
 
 .footer-body {

@@ -17,10 +17,10 @@ import { Container, Row, Col } from 'reactstrap';
       <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h2>Designed and Developed by Ceyda H. Hergul</h2>
+          <h5>Designed and Developed by Ceyda H. Hergul</h5>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h2>Copyright © {year} CHH</h2>
+          <h6>Copyright © {year} CHH</h6>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
