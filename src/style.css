@@ -1,0 +1,9 @@
+/* Footer */
+.footer {
+    bottom: 0 !important;
+    background-color : rgb(207, 188, 152)
+}
+
+.footer-body {
+    text-align: center !important;
+  }
