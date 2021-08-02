@@ -1,6 +1,7 @@
 import React from 'react';
+import { about, skills, sectionAbout } from '../../general'
 
-About = () => {
+const About = () => {
     return (
         <div>
 Test for ABOUT
