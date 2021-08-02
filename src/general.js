@@ -3,7 +3,7 @@
 // Update about me in here and also can change img from css!
 const sectionAbout = "About Me";
 const about = {
-  paragraph:
+  text:
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
 };
 
@@ -71,3 +71,10 @@ const skills = [
     },
   ];
 
+// Export
+export {
+    sectionAbout,
+    about,
+    projects,
+    skills,
+  };

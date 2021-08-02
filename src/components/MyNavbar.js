@@ -1,9 +1,11 @@
 import React from 'react';
 import '../style.css';
-// import Footer from "./components/Home";
-import Footer from "./components/About";
-import Footer from "./components/Portfolio";
-// import Footer from "./components/Contact";
+
+import About from './About';
+import Portfolio from './Portfolio';
+// import Contact from './Contact';
+
+
 //Reactstrap navbar
 import { useState } from 'react';
 import {
