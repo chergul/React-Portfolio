@@ -5,26 +5,28 @@ import Footer from "./components/Footer";
 import MyNavbar from './components/MyNavbar';
 import Portfolio from './components/Portfolio';
 import About from './components/About';
+import Home from './components/Home';
+// import Contact from './components/Contact';
 
 function App() {
   return (
   <Router>
         <div className="App">
       <MyNavbar />
-      <Portfolio />
+      <Home />
       <About />
+      <Portfolio />
+
       {/* <Switch>
-          <Route path="/" exact component={Home} />
-          <Route path="/about" component={About} />
-          <Route path="/portfolio" component={Portfolio} />
-          <Route path="/contact" component={Contact} />
-          
+        <Route path="/" exact component={Home} />
+        <Route path="/about" component={About} />
+        <Route path="/portfolio" component={Portfolio} />
+        <Route path="/contact" component={Contact} />
       </Switch> */}
+
       <Footer />
     </div>
   </Router>
-
-
 
 
   );

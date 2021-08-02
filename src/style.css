@@ -12,6 +12,7 @@
 /* About */
 .about {
     font-family: var(--font-family);
+ 
 }
 .photo{
     background-image: url('./img/photo.png');
