@@ -1,14 +1,14 @@
-// import React from 'react';
+import React from 'react';
 
-// About = () => {
-//     return (
-//         <div>
-// Test for ABOUT
-//         </div>
+About = () => {
+    return (
+        <div>
+Test for ABOUT
+        </div>
 
 
-//     )
-// }
+    )
+}
 
 
 
