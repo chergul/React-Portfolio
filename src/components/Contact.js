@@ -3,7 +3,7 @@ import '../style.css';
 
 function Contact () {
     return (
-        <div>
+        <div className="contact">
             <h1>Get in touch with me</h1>
         <div className="container">
             <div className="git-cont row">

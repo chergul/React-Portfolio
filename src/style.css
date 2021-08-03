@@ -40,6 +40,9 @@
     margin:10px auto;
 } */
 /* Contact */
+.contact {
+    font-family: var(--font-family);
+}
 /* Footer */
 .footer {
     bottom: 0 !important;
