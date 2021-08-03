@@ -1,45 +1,25 @@
-import React from 'react';
-import '../style.css';
-// import 'bootstrap/dist/css/bootstrap.min.css';
+import React from "react";
+import "../style.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { projects } from "../general";
 
-function Portfolio (){
-    return (
-        <div id="portfolio-container">
-            <div className="row">
-                <div className="portfolio-card col-10 offset-1 col-sm-6 offset-sm-0 col-md-3 offset-0">
-                     <img src=""/>
-                    <h5>portfolio header</h5>
-                    <span>portfolio short description</span> 
-                </div>
-                <div className="portfolio-card col-10 offset-1 col-sm-6 offset-sm-0 col-md-3 offset-0">
-                     <img src=""/>
-                    <h5>portfolio header</h5>
-                    <span>portfolio short description</span> 
-                </div>
-                <div className="portfolio-card col-10 offset-1 col-sm-6 offset-sm-0 col-md-3 offset-0">
-                     <img src=""/>
-                    <h5>portfolio header</h5>
-                    <span>portfolio short description</span> 
-                </div>
-                <div className="portfolio-card col-10 offset-1 col-sm-6 offset-sm-0 col-md-3 offset-0">
-                     <img src=""/>
-                    <h5>portfolio header</h5>
-                    <span>portfolio short description</span> 
-                </div>
-            </div>
-        </div>
-    );
+function Portfolio() {
+  return (
+    <div className="card" style={{ width: "18rem" }}>
+      {/* <img src="..." class="card-img-top" alt="..."> */}
+      {projects.map((p) => (
+        <>
+          <div className="card-body">
+            <h5 className="card-title">{p.name}</h5>
+            <p className="card-text">{p.skills}</p>
+          </div>
+          <div className="card-body">
+            <a href="#" class="card-link">Click for Repo</a>
+          </div>
+        </>
+      ))}
+    </div>
+  );
 }
 
-
-
-
-
-
-
-
-
-
-
-
-export default Portfolio
+export default Portfolio;
