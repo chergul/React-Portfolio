@@ -17,10 +17,10 @@ import { Container, Row, Col } from 'reactstrap';
     return ( 
       <Container fluid className="footer">
       <Row>
-        <Col md="4" className="footer-copywright">
+        <Col md="4" className="footer-copyright">
           <h5>Designed and Developed by Ceyda H. Hergul</h5>
         </Col>
-        <Col md="4" className="footer-copywright">
+        <Col md="4" className="footer-copyright">
           <h6>Copyright © {year} CHH</h6>
         </Col>
         <Col md="4" className="footer-body">
@@ -28,7 +28,7 @@ import { Container, Row, Col } from 'reactstrap';
             <li className="social-icons">
               <a
                 href="https://github.com/chergul"
-                style={{ color: "black" }}
+                style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >
@@ -38,7 +38,7 @@ import { Container, Row, Col } from 'reactstrap';
             <li className="social-icons">
               <a
                 href="https://twitter.com/chergul"
-                style={{ color: "black" }}
+                style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >
@@ -48,7 +48,7 @@ import { Container, Row, Col } from 'reactstrap';
             <li className="social-icons">
               <a
                 href="https://www.linkedin.com/in/ceyda-hergul/"
-                style={{ color: "black" }}
+                style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >
@@ -58,7 +58,7 @@ import { Container, Row, Col } from 'reactstrap';
             <li className="social-icons">
               <a
                 href="https://www.instagram.com/chergull"
-                style={{ color: "black" }}
+                style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >

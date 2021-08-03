@@ -12,7 +12,7 @@ const About = () => {
   <img className="col-sm-4 offset-md-2 photo">
   </img>
   <div className="col-sm-4">
-    <div className="card">
+    <div className="card-about">
       <div className="card-body">
         <h5 className="card-title">{sectionAbout}</h5>
         <p className="card-text">{about.text}</p>
@@ -22,6 +22,10 @@ const About = () => {
 </div>
             </div>
 
+<br>
+</br>
+<br>
+</br>
             {/* //Skills */}
             <div id="Skills"> 
             {skills.map((skill) =>

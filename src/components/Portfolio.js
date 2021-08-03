@@ -5,10 +5,12 @@ import { projects } from "../general";
 
 function Portfolio() {
   return (
-    <div className="p-card" style={{ width: "18rem" }}>
+      <div className="container">
+      <div className="row">
+    <div className="col-4 .col-md-3" style={{ width: "18rem" }}>
       {projects.map((p) => (
         <>
-          <div className="card-body">
+          <div className="card-body-portfolio">
           <img src={p.id} />
             <h5 className="card-title">{p.name}</h5>
             <p className="card-text">{p.skills}</p>
@@ -18,6 +20,8 @@ function Portfolio() {
           </div>
         </>
       ))}
+    </div>
+    </div>
     </div>
   );
 }

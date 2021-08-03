@@ -71,10 +71,21 @@ const skills = [
     },
   ];
 
+//This is for contact part
+const contactTitle = "Get in Touch with me";
+const contact = {
+  text:
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris nunc congue nisi vitae.",
+  copyright: "Ceyda H. Hergul",
+  contactUrl: "",
+};
+
 // Export
 export {
     sectionAbout,
     about,
+    contactTitle,
+    contact,
     projects,
     skills,
   };
