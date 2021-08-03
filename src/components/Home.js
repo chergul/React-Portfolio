@@ -1,18 +1,13 @@
 import React from 'react';
 import '../style.css';
+import Particles from "react-particles-js"
+import ParticleConfig from "../config/particlesConfig"
 
-const Home = () => {
-    return (
-        <div> aa </div>
-    )
-}
-
-
-
-
-
-
-
+function Home () {
+            return (
+                <Particles params={ParticleConfig}></Particles>
+            );
+        }
 
 
 
