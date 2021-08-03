@@ -12,12 +12,13 @@
 /* About */
 .about {
     font-family: var(--font-family);
-    height: 100px imp !important
- 
+    height: 100% !important
+
 }
 .photo{
     background-image: url('./img/photo.png');
 }
+
 /* Portfolio */
 .portfolio-card{
     height:200px;

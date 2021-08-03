@@ -14,7 +14,7 @@ function Portfolio() {
             <p className="card-text">{p.skills}</p>
           </div>
           <div className="card-body">
-            <a href="#" class="card-link">Click for Repo</a>
+            <a href={p.url} className="card-link">Click for Repo</a>
           </div>
         </>
       ))}
