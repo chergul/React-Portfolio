@@ -11,15 +11,15 @@ const about = {
 const projects = [
     {
       id: "project1",
-      name: "Project 1",
+      name: "Apointment Manager",
       skills: ["HTML, CSS, JS"],
-      url: "https://github.com/chergul",
+      url: "https://github.com/chergul/appointment-manager",
     },
     {
       id: "project2",
-      name: "Project 2",
+      name: "Budget Tracker",
       skills: ["HTML, CSS, JS"],
-      url: "https://github.com/chergul",
+      url: "https://github.com/chergul/MyBudgetTracker",
     },
     {
       id: "project3",
@@ -43,7 +43,7 @@ const projects = [
       id: "project6",
       name: "Project 6",
       skills: ["HTML, CSS, JS"],
-      url: "https://github.com/chergul",
+      link: "https://github.com/chergul",
     },
   ];
 

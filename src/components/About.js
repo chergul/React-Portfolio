@@ -22,6 +22,16 @@ const About = () => {
 </div>
             </div>
 
+            {/* //Skills */}
+            <div id="Skills"> 
+            {skills.map((skill) =>
+                <div className="row d-flex justify-content-center skills">
+                  {/* {skill.faClass}  */}
+                  {skill.name}
+                </div> 
+            )}
+            </div>
+
         </div>
     )
 }

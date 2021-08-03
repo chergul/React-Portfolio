@@ -6,7 +6,7 @@ import MyNavbar from './components/MyNavbar';
 import Portfolio from './components/Portfolio';
 import About from './components/About';
 import Home from './components/Home';
-// import Contact from './components/Contact';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
       <Switch>     
         <Route path="/about" component={About} />
         <Route path="/portfolio" component={Portfolio} />
-        {/* <Route path="/contact" component={Contact} /> */}
+        <Route path="/contact" component={Contact} />
         <Route path="/" exact component={Home} />
       </Switch>
 

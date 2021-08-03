@@ -12,7 +12,7 @@
 /* About */
 .about {
     font-family: var(--font-family);
-    height: 50rem !important;
+    height: 40rem !important;
     padding-top: 20px;
 
 }
@@ -21,10 +21,10 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 25rem !important;
+    height: 30rem !important;
 }
 .card-body {
-    height: 25rem !important;
+    height: 30rem !important;
 }
 
 /* Portfolio */
@@ -45,8 +45,30 @@
     bottom: 0 !important;
     background-color : rgb(207, 188, 152);
     font-family: var(--font-family);
+
 }
 
 .footer-body {
     text-align: center !important;
+
   }
+
+/* Project Photos */
+.project1 {
+    background-image: url('./img/project1.png');
+}
+.project2 {
+    background-image: url('./img/photo.png');
+}
+.project3 {
+    background-image: url('./img/photo.png'); 
+}
+.project4 {
+    background-image: url('./img/photo.png');    
+}
+.project5 {
+    background-image: url('./img/photo.png');
+}
+.project6 {
+    background-image: url('./img/photo.png');
+}

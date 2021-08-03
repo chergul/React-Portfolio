@@ -1,25 +1,18 @@
-// import React from 'react';
-//import '../style.css';
+import React from 'react';
+import '../style.css';
 
-// Contact = () => {
-//     return (
-//         <div>
-//             Test for CONTACT
-//         </div>
+function Contact () {
+    return (
+        <div>
+            Test for CONTACT
+        </div>
 
         
-//     )
-// }
+    )
+}
 
 
 
 
 
-
-
-
-
-
-
-
-// export default Contact
+export default Contact
