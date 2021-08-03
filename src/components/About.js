@@ -6,13 +6,11 @@ import { about, skills, sectionAbout } from '../general';
 const About = () => {
     
     return (
-        <div className="about h-100">
+        <div className="about">
             <div>
 <div className="row">
-  <div className="col-sm-4 offset-md-2 photo ">
-    <div className="card photo">
-    </div>
-  </div>
+  <img className="col-sm-4 offset-md-2 photo">
+  </img>
   <div className="col-sm-4">
     <div className="card">
       <div className="card-body">

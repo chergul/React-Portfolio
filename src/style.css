@@ -12,24 +12,33 @@
 /* About */
 .about {
     font-family: var(--font-family);
-    height: 100% !important
+    height: 50rem !important;
+    padding-top: 20px;
 
 }
-.photo{
+.photo {
     background-image: url('./img/photo.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 25rem !important;
+}
+.card-body {
+    height: 25rem !important;
 }
 
 /* Portfolio */
-.portfolio-card{
-    height:200px;
+.p-card{
     border:1px solid  black;
+    display: inline-flexbox;
+    justify-content: space-between;
 }
 /*.portfolio-card class icindeki hepsine aynisini uygulama class a gerek yok boylece */
-.portfolio-card > img{
+/* .p-card > img{
     width: 90%;
     display:block;
     margin:10px auto;
-}
+} */
 /* Contact */
 /* Footer */
 .footer {
