@@ -4,12 +4,13 @@ import { contact, contactTitle } from '../general'
 
 function Contact () {
     return  (
-        <div className="parallax">
+        <div className="contact">
                 <div data-aos="zoom-in-up" data-aos-once="true" className="git-form">
                     <>
                 <div className="git-head-div text-center mx-auto">
                         <h1 id="Contact" className="git-head">{contactTitle}</h1>
                 </div>
+                <br></br>
                 </>
                 <div className="container">
             <div className="git-cont row">

@@ -1,6 +1,8 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { about, skills, sectionAbout } from '../general';
+import '../../node_modules/@fortawesome/fontawesome-free/css/all.min.css';
+import { FaHtml5, FaJsSquare } from "react-icons/fa";
 
 
 const About = () => {
@@ -30,8 +32,8 @@ const About = () => {
             <div id="Skills"> 
             {skills.map((skill) =>
                 <div className="row d-flex justify-content-center skills">
-                  {/* {skill.faClass}  */}
-                  {skill.name}
+                  {skill.faClass} 
+                  {/* {skill.name} */}
                 </div> 
             )}
             </div>

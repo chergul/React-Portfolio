@@ -14,7 +14,7 @@ function App() {
         <div className="App">
       <MyNavbar />
       <Home />
-      <About />
+      <About href="#About"/>
       <Portfolio />
       <Contact />
 
@@ -28,8 +28,6 @@ function App() {
       <Footer />
     </div>
   </Router>
-
-
   );
 }
 

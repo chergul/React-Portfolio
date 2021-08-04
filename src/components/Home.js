@@ -4,11 +4,13 @@ import Particles from "react-particles-js"
 import ParticleConfig from "../config/particlesConfig"
 import { Container, Row, Col } from 'reactstrap';
 
+
 function Home () {
             return (
 
 
                     <div class="container">
+
 
  <Particles 
                     params={ParticleConfig}>

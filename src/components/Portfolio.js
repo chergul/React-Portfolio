@@ -7,7 +7,7 @@ function Portfolio() {
   return (
       <div className="container">
       <div className="row">
-    <div className="col-4 .col-md-3" style={{ width: "18rem" }}>
+    <div className="col-4 col-md-3 d-flex" style={{ width: "18rem" }}>
       {projects.map((p) => (
         <>
           <div className="card-body-portfolio">

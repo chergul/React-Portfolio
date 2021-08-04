@@ -1,5 +1,6 @@
 //------Put general things in here for react and render your page that you want ------//
 
+
 // Update about me in here and also can change img from css!
 const sectionAbout = "About Me";
 const about = {
@@ -51,7 +52,7 @@ const projects = [
 const skills = [
     {
       name: "HTML5",
-      faClass: "fab fa-html5",
+      faClass: "FaHtml5",
     },
     {
       name: "CSS3",
@@ -59,7 +60,7 @@ const skills = [
     },
     {
       name: "Javascript",
-      faClass: "fab fa-js",
+      faClass: "FaJsSquare",
     },
     {
       name: "Node",
