@@ -9,6 +9,19 @@
     font-family: var(--font-family)
 }
 /* Home */
+.container-home {
+    position: relative;
+}
+.container-home h1 {
+    position: absolute;
+    left: 40%;
+    top: 40%;
+}
+.container-home h4 {
+    position: absolute;
+    left: 40%;
+    top: 50%;
+}
 /* About */
 .about {
     font-family: var(--font-family);
@@ -33,6 +46,10 @@
 /* Portfolio */
 .p-card{
     border:1px solid  black;
+}
+.img {
+    height: 20px;
+    width: 20px;
 }
 /* .card-body-portfolio {
     display: flex;
@@ -65,6 +82,10 @@
 }
 /* Project Photos */
 .project1 {
+    width: 200px;
+    height: 200px;
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
     background-image: url('./img/project1.png');
 }
 .project2 {
