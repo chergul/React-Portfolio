@@ -12,7 +12,7 @@ function Home () {
             return (
               <div>
                     <div class="container-home">
-                      <h1>{`I'am ${name}`} </h1>
+                      <h1>{`Hello, I'am ${name}`} </h1>
                       <h4>
                         {title}
                       </h4>
