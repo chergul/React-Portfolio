@@ -52,6 +52,11 @@
 
 /* Skills */
 
+.skills {
+    display: inline-block;
+    padding: 30px;
+}
+
 /* Contact */
 .contact {
     font-family: var(--font-family);
