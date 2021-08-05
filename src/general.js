@@ -17,37 +17,37 @@ const projects = [
     {
       id: "project1",
       name: "Apointment Manager",
-      skills: ["HTML, CSS, JS"],
+      skills: ["HTML, CSS, JS, Handlebars, Bootstrap, JQuery"],
       url: "https://github.com/chergul/appointment-manager",
     },
     {
       id: "project2",
       name: "Budget Tracker",
-      skills: ["HTML, CSS, JS"],
+      skills: ["HTML, JS, MongoDB, IndexedDB"],
       url: "https://github.com/chergul/MyBudgetTracker",
     },
     {
       id: "project3",
-      name: "Project 3",
-      skills: ["HTML, CSS, JS"],
+      name: "Note Taker",
+      skills: ["HTML, CSS, JS, Express.js,"],
       url: "https://github.com/chergul",
     },
     {
       id: "project4",
-      name: "Project 4",
-      skills: ["HTML, CSS, JS"],
+      name: "Atmos Project",
+      skills: ["HTML, CSS, JS, API's"],
       url: "https://github.com/chergul",
     },
     {
       id: "project5",
-      name: "Project 5",
-      skills: ["HTML, CSS, JS"],
+      name: "Workout Tracker",
+      skills: ["HTML, CSS, JS, NoSQL"],
       url: "https://github.com/chergul",
     },
     {
       id: "project6",
-      name: "Project 6",
-      skills: ["HTML, CSS, JS"],
+      name: "Employee Tracker",
+      skills: ["MySQL, Express.js"],
       link: "https://github.com/chergul",
     },
   ];
@@ -67,12 +67,20 @@ const skills = [
       faClass: "fab fa-js-square fa-3x",
     },
     {
+      name: "React",
+      faClass: "fab fa-react fa-3x",
+    },
+    {
       name: "Node",
       faClass: "fab fa-node fa-3x",
     },
     {
       name: "Database",
       faClass: "fas fa-database fa-3x",
+    },
+    {
+      name: "Github",
+      faClass: "fab fa-github fa-3x",
     },
   ];
 

@@ -5,6 +5,7 @@ import { projects } from "../general";
 
 function Portfolio() {
   return (
+  
     <div className="container-portfolio">
       <div className="container">
       <div className="row">
@@ -14,18 +15,21 @@ function Portfolio() {
         <>
           <div className="card-body-portfolio">
           <div className={`img ${p.id}`}></div>
+          <br></br>
             <h5 className="card-title-p">{p.name}</h5>
             <p className="card-text-p">{p.skills}</p>
           </div>
-          <div className="card-body">
+          <div className="card-body-p">
             <a href={p.url} className="card-link">Click for Repo</a>
+            
           </div>
         </>
- 
+        <br></br>
     </div>
          ))}
     </div>
     </div>
+    <br></br>
     </div>
   );
 }
