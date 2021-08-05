@@ -5,15 +5,16 @@ import ParticleConfig from "../config/particlesConfig"
 import About from "./About";
 import Portfolio from "./Portfolio";
 import Contact from "./Contact";
+import { name, title } from '../general';
 
 
 function Home () {
             return (
               <div>
                     <div class="container-home">
-                      <h1> I'm Ceyda Hergul </h1>
+                      <h1>{`I'am ${name}`} </h1>
                       <h4>
-                        Full-Stack Web Developer
+                        {title}
                       </h4>
                     <Particles 
                     params={ParticleConfig}>

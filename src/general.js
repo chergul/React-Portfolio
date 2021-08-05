@@ -8,6 +8,10 @@ const about = {
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
 };
 
+//Update home page 
+const name = "Ceyda Hergul";
+const title = "Full-Stack Web Developer";
+
 //Projects go here and can change img from css!
 const projects = [
     {
@@ -89,4 +93,6 @@ export {
     contact,
     projects,
     skills,
+    name,
+    title,
   };
