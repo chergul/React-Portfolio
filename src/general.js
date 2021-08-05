@@ -52,23 +52,23 @@ const projects = [
 const skills = [
     {
       name: "HTML5",
-      faClass: "FaHtml5",
+      faClass: "fab fa-html5 fa-3x",
     },
     {
       name: "CSS3",
-      faClass: "fab fa-css3",
+      faClass: "fab fa-css3 fa-3x",
     },
     {
       name: "Javascript",
-      faClass: "FaJsSquare",
+      faClass: "fab fa-js-square fa-3x",
     },
     {
       name: "Node",
-      faClass: "fab fa-node",
+      faClass: "fab fa-node fa-3x",
     },
     {
       name: "Database",
-      faClass: "fas fa-database",
+      faClass: "fas fa-database fa-3x",
     },
   ];
 

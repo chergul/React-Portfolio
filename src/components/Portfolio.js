@@ -5,16 +5,17 @@ import { projects } from "../general";
 
 function Portfolio() {
   return (
+    <div className="container-portfolio">
       <div className="container">
       <div className="row">
       {projects.map((p) => (
-    <div className="col-4 col-md-3">
+    <div className="col-4 col-md-4">
      
         <>
           <div className="card-body-portfolio">
           <div className={`img ${p.id}`}></div>
-            <h5 className="card-title">{p.name}</h5>
-            <p className="card-text">{p.skills}</p>
+            <h5 className="card-title-p">{p.name}</h5>
+            <p className="card-text-p">{p.skills}</p>
           </div>
           <div className="card-body">
             <a href={p.url} className="card-link">Click for Repo</a>
@@ -23,6 +24,7 @@ function Portfolio() {
  
     </div>
          ))}
+    </div>
     </div>
     </div>
   );
