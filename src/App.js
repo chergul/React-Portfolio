@@ -1,4 +1,3 @@
-// import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter as Router, Redirect, Route, Switch } from "react-router-dom";
 import Footer from "./components/Footer";
@@ -7,6 +6,9 @@ import Portfolio from './components/Portfolio';
 import About from './components/About';
 import Home from './components/Home';
 import Contact from './components/Contact';
+import React from "react";
+// import AOS from "aos";
+// import "../node_modules/aos/dist/aos";
 
 function App() {
   return (

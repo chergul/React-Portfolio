@@ -88,7 +88,7 @@ const skills = [
 const contactTitle = "Get in Touch with me";
 const contact = {
   text:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris nunc congue nisi vitae.",
+    "Let's meet, talk about a project or a collaboration, or just say hi. Simply fill the from and send me an email.",
   copyright: "Ceyda H. Hergul",
   contactUrl: "",
 };

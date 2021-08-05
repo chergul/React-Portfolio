@@ -59,6 +59,16 @@
 .contact-head {
     font-family: 'Lobster', cursive;
 }
+.contact-cont {
+    line-height: 40px;
+}
+#msg {
+    resize:both;
+    overflow:auto;
+    min-height: 100px;
+    width: 80%;
+    padding-top: 5px; 
+}
 /* Footer */
 .footer {
     bottom: 0 !important;
@@ -74,67 +84,67 @@
 }
 /* Project Photos */
 .project1 {
-    width: 200px;
+    width: 350px;
     height: 200px;
     background-size: 200px 200px;
     background-repeat: no-repeat;
     border-radius: 20px;
     background-image: url('./img/project1.png');
-    border : 3px solid black;
-    box-shadow: 4px 4px 15px black, -1em 0 .6em rgb(167, 157, 157);
+    border : 1px solid black;
+    box-shadow:  -1em 0 .6em rgb(167, 157, 157);
 }
 .project2 {
-    width: 200px;
+    width: 350px;
     height: 200px;
     background-size: 200px 200px;
     background-repeat: no-repeat;
     border-radius: 20px;
     align-items: center;
     background-image: url('./img/project2.png');
-    border : 3px solid black;
-    box-shadow: 4px 4px 15px black, -1em 0 .6em rgb(167, 157, 157);
+    border : 1px solid black;
+    box-shadow:  -1em 0 .6em rgb(167, 157, 157);
 }
 .project3 {
-    width: 200px;
+    width: 350px;
     height: 200px;
     background-size: 200px 200px;
     background-repeat: no-repeat;
     border-radius: 20px;
     align-items: center;
     background-image: url('./img/project3.png');
-    border : 3px solid black;
-    box-shadow: 4px 4px 15px black, -1em 0 .6em rgb(167, 157, 157);
+    border : 1px solid black;
+    box-shadow:  -1em 0 .6em rgb(167, 157, 157);
 }
 .project4 {
-    width: 200px;
+    width: 350px;
     height: 200px;
     background-size: 200px 200px;
     background-repeat: no-repeat;
     border-radius: 20px;
     align-items: center;
     background-image: url('./img/project4.png');
-    border : 3px solid black;
-    box-shadow: 4px 4px 15px black, -1em 0 .6em rgb(167, 157, 157);
+    border : 1px solid black;
+    box-shadow:  -1em 0 .6em rgb(167, 157, 157);
 }
 .project5 {
-    width: 200px;
+    width: 350px;
     height: 200px;
     background-size: 200px 200px;
     background-repeat: no-repeat;
     border-radius: 20px;
     align-items: center;
     background-image: url('./img/project5.png');
-    border : 3px solid black;
-    box-shadow: 4px 4px 15px black, -1em 0 .6em rgb(167, 157, 157);
+    border : 1px solid black;
+    box-shadow:  -1em 0 .6em rgb(167, 157, 157);
 }
 .project6 {
-    width: 300px;
+    width: 350px;
     height: 200px;
     background-size: 200px 200px;
     background-repeat: no-repeat;
     border-radius: 20px;
     align-items: center;
     background-image: url('./img/project6.png');
-    border : 3px solid black;
-    box-shadow: 4px 4px 15px black, -1em 0 .6em rgb(167, 157, 157);
+    border : 1px solid black;
+    box-shadow:  -1em 0 .6em rgb(167, 157, 157);
 }
