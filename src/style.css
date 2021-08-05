@@ -11,6 +11,7 @@
 /* Home */
 .container-home {
     position: relative;
+    font-family: 'Lobster', cursive;
 }
 .container-home h1 {
     position: absolute;

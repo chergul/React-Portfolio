@@ -14,7 +14,7 @@ function App() {
         <div className="App">
       <MyNavbar />
       <Home />
-      <About href="#About"/>
+      <About />
       <Portfolio />
       <Contact />
 
