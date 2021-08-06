@@ -85,18 +85,19 @@
 /* Project Photos */
 .project1 {
     width: 350px;
-    height: 200px;
-    background-size: 200px 200px;
+    height: 170px;
+    background-size: contain;
     background-repeat: no-repeat;
     border-radius: 20px;
     background-image: url('./img/project1.png');
     border : 1px solid black;
     box-shadow:  -1em 0 .6em rgb(167, 157, 157);
+    vertical-align: baseline;
 }
 .project2 {
     width: 350px;
-    height: 200px;
-    background-size: 200px 200px;
+    height: 170px;
+    background-size: contain;
     background-repeat: no-repeat;
     border-radius: 20px;
     align-items: center;
@@ -106,8 +107,8 @@
 }
 .project3 {
     width: 350px;
-    height: 200px;
-    background-size: 200px 200px;
+    height: 170px;
+    background-size: contain;
     background-repeat: no-repeat;
     border-radius: 20px;
     align-items: center;
@@ -117,8 +118,8 @@
 }
 .project4 {
     width: 350px;
-    height: 200px;
-    background-size: 200px 200px;
+    height: 170px;
+    background-size: contain;
     background-repeat: no-repeat;
     border-radius: 20px;
     align-items: center;
@@ -128,8 +129,8 @@
 }
 .project5 {
     width: 350px;
-    height: 200px;
-    background-size: 200px 200px;
+    height: 170px;
+    background-size: contain;
     background-repeat: no-repeat;
     border-radius: 20px;
     align-items: center;
@@ -139,8 +140,8 @@
 }
 .project6 {
     width: 350px;
-    height: 200px;
-    background-size: 200px 200px;
+    height: 170px;
+    background-size: contain;
     background-repeat: no-repeat;
     border-radius: 20px;
     align-items: center;
