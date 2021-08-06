@@ -2,7 +2,6 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { about, skills, sectionAbout } from '../general';
 import '../../node_modules/@fortawesome/fontawesome-free/css/all.min.css';
-import { FaHtml5, FaJsSquare } from "react-icons/fa";
 
 
 const About = () => {
@@ -11,7 +10,7 @@ const About = () => {
         <div className="about">
             <div>
 <div className="row">
-  <img className="col-sm-4 offset-md-2 photo">
+  <img className="col-sm-4 offset-md-2 photo" alt="mypic">
   </img>
   <div className="col-sm-4">
     <div className="card-about">
@@ -30,8 +29,8 @@ const About = () => {
 </br>
             {/* //Skills */}
             <div id="Skills"> 
-            {skills.map((skill) =>
-                <div className={`row skills ${skill.faClass}`}>
+            {skills.map((skill,indexS) =>
+                <div key={indexS} className={`row skills ${skill.faClass}`}>
                   
                   {/* {skill.name} */}
                 </div> 

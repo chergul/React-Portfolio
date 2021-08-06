@@ -60,14 +60,14 @@
     font-family: 'Lobster', cursive;
 }
 .contact-cont {
-    line-height: 40px;
+    
 }
 #msg {
     resize:both;
     overflow:auto;
     min-height: 100px;
     width: 80%;
-    padding-top: 5px; 
+    margin-top: 10px; 
 }
 /* Footer */
 .footer {

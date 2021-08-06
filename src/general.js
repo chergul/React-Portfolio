@@ -90,7 +90,6 @@ const contact = {
   text:
     "Let's meet, talk about a project or a collaboration, or just say hi. Simply fill the from and send me an email.",
   copyright: "Ceyda H. Hergul",
-  contactUrl: "",
 };
 
 // Export
