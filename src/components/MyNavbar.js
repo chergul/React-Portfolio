@@ -1,12 +1,9 @@
 import React from 'react';
 import '../style.css';
 
-import About from './About';
-import Portfolio from './Portfolio';
+// import About from './About';
+// import Portfolio from './Portfolio';
 // import Contact from './Contact';
-
-
-//Reactstrap navbar
 import { useState } from 'react';
 import {
   Collapse,

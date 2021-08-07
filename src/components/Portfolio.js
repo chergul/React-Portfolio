@@ -10,7 +10,7 @@ function Portfolio() {
       <div className="container">
       <div className="row">
       {projects.map((p,indexP) => (
-    <div key={indexP} className="col-4 col-md-4">
+    <div key={indexP} className="col-12 col-md-4">
      
         <>
           <div className="card-body-portfolio">

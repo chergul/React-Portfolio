@@ -11,7 +11,7 @@ import { name, title } from '../general';
 function Home () {
             return (
               <div>
-                    <div class="container-home">
+                    <div className="container-home">
                       <h1>{`Hello, I'am ${name}`} </h1>
                       <h4>
                         {title}

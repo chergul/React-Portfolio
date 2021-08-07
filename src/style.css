@@ -36,10 +36,12 @@
     background-repeat: no-repeat;
     height: 30rem !important;
     border-radius: 25px;
+    text-indent:-9999px;
 }
 .card-body {
     height: 30rem !important;
 }
+
 /* Portfolio */
 .container-portfolio {
     font-family: var(--font-family);
@@ -149,3 +151,15 @@
     border : 1px solid black;
     box-shadow:  -1em 0 .6em rgb(167, 157, 157);
 }
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+@media screen and (min-width: 900px) {
+    container-portfolio {
+      padding-top: 1rem 3rem;
+    }
+  }

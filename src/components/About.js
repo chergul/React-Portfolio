@@ -10,7 +10,7 @@ const About = () => {
         <div className="about">
             <div>
 <div className="row">
-  <img className="col-sm-4 offset-md-2 photo" alt="mypic">
+  <img className="col-sm-4 offset-md-2 photo" alt="">
   </img>
   <div className="col-sm-4">
     <div className="card-about">
@@ -27,6 +27,7 @@ const About = () => {
 </br>
 <br>
 </br>
+<div className="card">
             {/* //Skills */}
             <div id="Skills"> 
             {skills.map((skill,indexS) =>
@@ -35,6 +36,7 @@ const About = () => {
                   {/* {skill.name} */}
                 </div> 
             )}
+            </div>
             </div>
 
         </div>

@@ -5,7 +5,7 @@
 const sectionAbout = "About Me";
 const about = {
   text:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "As a teenager at school who was formatting to her computer without any guides just by research. Graduated from law school and practicing for over 10 years now. Today took an opportunity and changed my career into a web developer to chase my dreams. As a hard worker junior web developer writing codes, using libraries for my HTML to make a delicate website. Using JavaScript, jQuery for back-ends also for responsiveness, do have adequate knowledge of object-oriented programming and databases as well. Fast learner, team player who is seeking an opportunity to extend my web development skills and knowledge."
 };
 
 //Update home page 
@@ -34,7 +34,7 @@ const projects = [
     },
     {
       id: "project4",
-      name: "Atmos Project",
+      name: "My Atmos Project",
       skills: ["HTML, CSS, JS, API's"],
       url: "https://github.com/chergul",
     },
