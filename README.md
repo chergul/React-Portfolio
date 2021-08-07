@@ -10,7 +10,7 @@ Welcome to React-Portfolio page.
 
 You can clone this repo.
 
-git clone https://chergul.github.io/React-Portfolio/
+git clone https://github.com/chergul/React-Portfolio.git
 
 ## Table of Contents
 * [How to Use](#how-to-use)
