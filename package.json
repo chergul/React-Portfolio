@@ -36,10 +36,9 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "rules": {
+      "no-whitespace-before-property": "off"
+    }
   },
   "browserslist": {
     "production": [
@@ -55,11 +54,5 @@
   },
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.15.3"
-  },
-
-    "eslintConfig": {
-      "rules": {
-        "no-whitespace-before-property": "off"
-      }
-    }
+  }
 }

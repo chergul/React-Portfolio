@@ -14,7 +14,7 @@
 *.userprefs
 
 # Mono auto generated files
-node_modules
+node_modules/
 .env
 mono_crash.*
 
