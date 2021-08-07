@@ -28,19 +28,22 @@ const About = () => {
 </br>
 <br>
 </br>
+
+
 <div className="card">
-            {/* //Skills */}
+
             <div id="Skills"> 
             {skills.map((skill,indexS) =>
-                <div key={indexS} className={`row skills ${skill.faClass}`}>
+                <div key={indexS} className={`skills ${skill.faClass}`}>
                   
                   {/* {skill.name} */}
                 </div> 
             )}
             </div>
             </div>
+            </div>
+       
 
-        </div>
     )
 }
 

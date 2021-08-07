@@ -52,8 +52,12 @@
 }
 
 /* Skills */
+.card {
+}
 .skills {
-    display: inline-block;
+    justify-content: center;
+    display: inline-flex;
+
     padding: 30px;
 }
 
