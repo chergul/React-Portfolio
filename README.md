@@ -25,7 +25,7 @@ Change general.js file to get your Personal Porfolio.
 
 ## Heroku Deployment
 
-https://whispering-anchorage-60057.herokuapp.com/
+https://nameless-basin-56340.herokuapp.com
 
 ## Video for the app
 ​
