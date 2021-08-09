@@ -12,25 +12,25 @@ function Contact () {
         message:"",
         })
 
-        const updateForm = (e) => {
+    const updateForm = (e) => {
             setForm ({
                 ...form,
-                [e.target.name]: e.target.value,
+                [e.target.name]: e.target.value
             })
-            console.log(e.target)
+            // console.log(e.target)
         }
     function sendEmail(e) {
         e.preventDefault();
         emailjs.sendForm
         (
-        'service_rfvpojc',
-        'template_r7jln2p',
+        'service_zvgfxdt',
+        'template_ev9mj51',
         e.target,
         'user_dZSbzY2Qf79E6TdjSUtlz'
         ).then(res=>{
             console.log(res);
         }). catch(err=>console.log(err));
-        e.target.reset();
+        e.target.reset({value:""});
     }
     return  (
         <div className="contact">
@@ -51,7 +51,7 @@ function Contact () {
                         
                         <textarea onChange ={updateForm} id="msg" size="250"name="message" placeholder="Message" value={form.message} required></textarea>
                         <br></br>
-                        <button className="btn btn-dark"style={{cursor: 'pointer'}} type="submit">Send</button>
+                        <button onClick ={updateForm} className="btn btn-dark"style={{cursor: 'pointer'}} type="submit">Send</button>
                         
                     </form>
                 </div>
