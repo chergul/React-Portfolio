@@ -7,6 +7,7 @@ import About from './components/About';
 import Home from './components/Home';
 import Contact from './components/Contact';
 import React from "react";
+import {sendForum} from 'emailjs-com';
 // import AOS from "aos";
 // import "../node_modules/aos/dist/aos";
 
