@@ -33,9 +33,9 @@ https://nameless-basin-56340.herokuapp.com
 
 ## For the future
 
--Make it more interactive
--Add .env for the email.js
--Add more sections
+- Make it more interactive
+- Add .env for the email.js
+- Add more sections
 
 ## Questions
 If you have any questions about this repo, you can open an issue, or contact directly at 
