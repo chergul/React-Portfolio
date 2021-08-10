@@ -2,7 +2,6 @@ import React, {useState} from 'react';
 import '../style.css';
 import { contact, contactTitle } from '../general'
 import emailjs from 'emailjs-com';
-import sendForum from 'emailjs-com';
 
 function Contact () {
     const [form,setForm] = useState ({
