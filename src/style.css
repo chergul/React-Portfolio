@@ -52,8 +52,6 @@
 }
 
 /* Skills */
-.card {
-}
 .skills {
     justify-content: center;
     display: inline-flex;
@@ -180,6 +178,18 @@
         position: absolute;
         left: 30%;
         top: 70%;
+    }
+    .about {
+        font-family: var(--font-family);
+        height: 45rem !important;
+        padding:  20px;
+    }
+    .skills {
+        margin-top: 20px;
+    }
+    .container-portfolio {
+        font-family: var(--font-family);
+        padding: 20px;
     }
  
   }
