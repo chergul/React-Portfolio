@@ -50,6 +50,9 @@
 .card-title-p {
     font-family: 'Lobster', cursive !important;
 }
+.card-text-p {
+    font-style: italic;
+}
 
 /* Skills */
 .skills {

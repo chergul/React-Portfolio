@@ -17,6 +17,7 @@ function Portfolio() {
           <div className={`img ${p.id}`}></div>
           <br></br>
             <h5 className="card-title-p">{p.name}</h5>
+            <h8 className="card-description-p">{p.description}</h8>
             <p className="card-text-p">{p.skills}</p>
           </div>
           <div className="card-body-p">
