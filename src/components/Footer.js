@@ -19,6 +19,7 @@ import { Container, Row, Col } from 'reactstrap';
       <Row>
         <Col md="4" className="footer-copyright">
           <h5>Designed and Developed by Ceyda H. Hergul</h5>
+          <h8> ceyda_hergul@hotmail.com</h8>
         </Col>
         <Col md="4" className="footer-copyright">
           <h6>Copyright © {year} CHH</h6>

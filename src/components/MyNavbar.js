@@ -39,6 +39,9 @@ function MyNavbar (props) {
             <NavItem>
               <NavLink tag={Link} to="/contact">Contact</NavLink>
             </NavItem>
+            <NavItem>
+              <NavLink tag={Link} to="/resume">Resume</NavLink>
+            </NavItem>
           </Nav>
           <NavbarText>Be Happy!</NavbarText>
         </Collapse>

@@ -6,6 +6,8 @@ import Portfolio from './components/Portfolio';
 import About from './components/About';
 import Home from './components/Home';
 import Contact from './components/Contact';
+import Resume from './components/Resume';
+
 import React from "react";
 import {sendForum} from 'emailjs-com';
 // import AOS from "aos";
@@ -21,6 +23,7 @@ function App() {
         <Route path="/about" component={About} />
         <Route path="/portfolio" component={Portfolio} />
         <Route path="/contact" component={Contact} />
+        <Route path="/resume"  component={Resume} />
         <Route path="/" exact component={Home} />
         <Redirect to="/"/>
       </Switch>
