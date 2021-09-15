@@ -16,7 +16,7 @@ const title = "Full-Stack Web Developer";
 const projects = [
     {
       id: "project1",
-      name: "Apointment Manager",
+      name: "Appointment Manager",
       description: "All the appointment booking, cancellations, and price negotiations are handled via Instagram, which leads to late replies, double bookings, upset customers, and cancellations. Taken to the next level through application.",
       skills: ["HTML, CSS, JS, Handlebars, Bootstrap, JQuery"],
       url: "https://github.com/chergul/appointment-manager",
