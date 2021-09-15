@@ -33,28 +33,28 @@ const projects = [
       name: "Note Taker",
       description: "An app that can be used to write, save, and delete notes.",
       skills: ["HTML, CSS, JS, Express.js,"],
-      url: "https://github.com/chergul",
+      url: "https://github.com/chergul/Note-Taker",
     },
     {
       id: "project4",
       name: "My Atmos Project",
       description: "Atmos allows a user to choose a genre of music that they are in the mood for along with searching visuals they would like to see.",
       skills: ["HTML, CSS, JS, API's"],
-      url: "https://github.com/chergul",
+      url: "https://github.com/chergul/atmos-project",
     },
     {
       id: "project5",
       name: "Workout Tracker",
       description: "When the user loads the web page, they should see the workout tracker with an option to create a new workout, or continue with their last workout.",
       skills: ["HTML, CSS, JS, NoSQL"],
-      url: "https://github.com/chergul",
+      url: "https://github.com/chergul/Workout-Tracker-NoSQL",
     },
     {
       id: "project6",
       name: "Employee Tracker",
       description: "This application uses the node package Inquirer to ask you questions, and display requested information as well. You can add, delete or view employees through your terminal. You can also submit informagtion departments and roles.",
       skills: ["MySQL, Express.js"],
-      link: "https://github.com/chergul",
+      link: "https://github.com/chergul/employee-tracker",
     },
   ];
 
