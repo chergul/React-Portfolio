@@ -10,7 +10,7 @@ const about = {
 
 //Update home page 
 const name = "Ceyda Hergul";
-const title = "Front-Endgit a Web Developer";
+const title = "Front-End Web Developer";
 
 //Projects go here and can change img from css!
 const projects = [
