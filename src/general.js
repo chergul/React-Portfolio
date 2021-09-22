@@ -54,7 +54,7 @@ const projects = [
       name: "Employee Tracker",
       description: "This application uses the node package Inquirer to ask you questions, and display requested information as well. You can add, delete or view employees through your terminal. You can also submit informagtion departments and roles.",
       skills: ["MySQL, Express.js"],
-      link: "https://github.com/chergul/employee-tracker",
+      url: "https://github.com/chergul/employee-tracker",
     },
   ];
 
