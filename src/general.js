@@ -20,6 +20,7 @@ const projects = [
       description: "All the appointment booking, cancellations, and price negotiations are handled via Instagram, which leads to late replies, double bookings, upset customers, and cancellations. Taken to the next level through application.",
       skills: ["HTML, CSS, JS, Handlebars, Bootstrap, JQuery"],
       url: "https://github.com/chergul/appointment-manager",
+      deployment: "https://fathomless-eyrie-79379.herokuapp.com/",
     },
     {
       id: "project2",
@@ -27,6 +28,7 @@ const projects = [
       description: "The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.",
       skills: ["HTML, JS, MongoDB, IndexedDB"],
       url: "https://github.com/chergul/MyBudgetTracker",
+      deployment: "https://lit-taiga-37611.herokuapp.com/",
     },
     {
       id: "project3",
@@ -34,6 +36,7 @@ const projects = [
       description: "An app that can be used to write, save, and delete notes.",
       skills: ["HTML, CSS, JS, Express.js,"],
       url: "https://github.com/chergul/Note-Taker",
+      deployment: "https://sleepy-fortress-05923.herokuapp.com/notes",
     },
     {
       id: "project4",
@@ -41,6 +44,7 @@ const projects = [
       description: "Atmos allows a user to choose a genre of music that they are in the mood for along with searching visuals they would like to see.",
       skills: ["HTML, CSS, JS, API's"],
       url: "https://github.com/chergul/atmos-project",
+      deployment: "https://chergul.github.io/atmos-project/",
     },
     {
       id: "project5",
@@ -48,6 +52,8 @@ const projects = [
       description: "When the user loads the web page, they should see the workout tracker with an option to create a new workout, or continue with their last workout.",
       skills: ["HTML, CSS, JS, NoSQL"],
       url: "https://github.com/chergul/Workout-Tracker-NoSQL",
+      deployment: "https://whispering-anchorage-60057.herokuapp.com/?id=614a94ff092ace0015909141",
+
     },
     {
       id: "project6",
@@ -55,6 +61,7 @@ const projects = [
       description: "This application uses the node package Inquirer to ask you questions, and display requested information as well. You can add, delete or view employees through your terminal. You can also submit informagtion departments and roles.",
       skills: ["MySQL, Express.js"],
       url: "https://github.com/chergul/employee-tracker",
+      deployment: "https://chergul.github.io/employee-tracker/",
     },
   ];
 

@@ -22,7 +22,7 @@ function Portfolio() {
           </div>
           <div className="card-body-p">
             <a href={p.url} className="card-link">Click for Repo</a>
-            
+            <a href={p.deployment} className="card-link">Heroku Link</a>
           </div>
         </>
         <br></br>
