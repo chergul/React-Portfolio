@@ -10,7 +10,7 @@ import { name, title } from '../general';
 
 function Home () {
             return (
-              <div>
+              <div >
                     <div className="container-home">
                       <h1>{`Hello, I'am ${name}`} </h1>
                       <h4>

@@ -5,7 +5,7 @@ import { about, skills, sectionAbout } from '../general';
 const About = () => {
     
     return (
-      <div className="container">
+      <div className="container-about">
         <div className="about">
        
 <div className="row">

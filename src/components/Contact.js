@@ -42,8 +42,8 @@ function Contact () {
                 </>
                 <div className="container">
             <div className="contact-cont row">
-                <div className="cont-form col-12 col-sm-6 half">
-                    <form onSubmit={sendEmail}>
+                <div className="cont-form col-12 col-lg-6 half col-md-12 ">
+                    <form className="myForm" onSubmit={sendEmail}>
                         <input onChange ={updateForm} type="text" size="50" name="name" placeholder="Your name" value={form.name} required></input>
                         <input onChange ={updateForm} type="mail" size="50" name="user_email" placeholder="Email Address" value={form.user_email} required></input>
                         <input onChange ={updateForm} type="text" size="50" name="subject" placeholder="Subject" value={form.subject} required></input>
@@ -54,7 +54,7 @@ function Contact () {
                         
                     </form>
                 </div>
-                <div className="col-12 col-sm-6 half">
+                <div className="col-12 col-lg-6 half col-md-12"> 
                     <p className="lead">
                         {contact.text}        
                     </p>

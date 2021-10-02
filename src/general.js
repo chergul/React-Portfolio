@@ -65,35 +65,40 @@ const projects = [
     },
   ];
 
-//Skills go here 
+//Skills go here
+let fontSize = "fa-3x";
 const skills = [
     {
       name: "HTML5",
-      faClass: "fab fa-html5 fa-3x",
+      faClass: "fab fa-html5",
     },
     {
       name: "CSS3",
-      faClass: "fab fa-css3 fa-3x",
+      faClass: "fab fa-css3",
     },
     {
       name: "Javascript",
-      faClass: "fab fa-js-square fa-3x",
+      faClass: "fab fa-js-square",
     },
     {
       name: "React",
-      faClass: "fab fa-react fa-3x",
+      faClass: "fab fa-react",
     },
     {
       name: "Node",
-      faClass: "fab fa-node fa-3x",
+      faClass: "fab fa-node",
     },
     {
       name: "Database",
-      faClass: "fas fa-database fa-3x",
+      faClass: "fas fa-database",
     },
     {
       name: "Github",
-      faClass: "fab fa-github fa-3x",
+      faClass: "fab fa-github",
+    },
+    {
+      name: "Sass",
+      faClass: "fab fa-sass",
     },
   ];
 

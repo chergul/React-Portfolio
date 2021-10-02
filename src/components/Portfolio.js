@@ -10,14 +10,14 @@ function Portfolio() {
       <div className="container">
       <div className="row">
       {projects.map((p,indexP) => (
-    <div key={indexP} className="col-12 col-md-4">
+    <div key={indexP} className="myColumn col-lg-4 col-md-6">
      
         <>
           <div className="card-body-portfolio">
-          <div className={`img ${p.id}`}></div>
+          <div id="portfolioImg" className={`img ${p.id}`}></div>
           <br></br>
             <h5 className="card-title-p">{p.name}</h5>
-            <h8 className="card-description-p">{p.description}</h8>
+            <h6 className="card-description-p">{p.description}</h6>
             <p className="card-text-p">{p.skills}</p>
           </div>
           <div className="card-body-p">
