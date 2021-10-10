@@ -1,9 +1,6 @@
 import React from 'react';
 import '../style.css';
 import { GiBee } from 'react-icons/gi';
-// import About from './About';
-// import Portfolio from './Portfolio';
-// import Contact from './Contact';
 import { useState } from 'react';
 import {
   Collapse,
@@ -43,7 +40,7 @@ function MyNavbar (props) {
               <NavLink tag={Link} to="/resume">Resume</NavLink>
             </NavItem>
           </Nav>
-          <NavbarText><GiBee/> Happy!</NavbarText>
+          <NavbarText><GiBee/>Happy!</NavbarText>
         </Collapse>
       </Navbar>
     </div>

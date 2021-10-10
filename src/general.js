@@ -105,19 +105,18 @@ const skills = [
 //This is for contact part
 const contactTitle = "Get in Touch with me";
 const contact = {
-  text:
-    "Let's meet, talk about a project or a collaboration, or just say hi. Simply fill the from and send me an email.",
-  copyright: "Ceyda H. Hergul",
+  text:"Let's meet, talk about a project or a collaboration, or just say hi. Simply fill the from and send me an email.",
+  copyright:"Ceyda H. Hergul",
 };
 
 // Export
 export {
-    sectionAbout,
-    about,
-    contactTitle,
-    contact,
-    projects,
-    skills,
-    name,
-    title,
+  sectionAbout,
+  about,
+  contactTitle,
+  contact,
+  projects,
+  skills,
+  name,
+  title,
   };

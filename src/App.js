@@ -8,7 +8,6 @@ import Home from './components/Home';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
 import React from "react";
-import {sendForum} from 'emailjs-com';
 
 function App() {
   return (
